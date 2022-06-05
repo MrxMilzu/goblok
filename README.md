@@ -1,2 +1,2 @@
 # goblok
-Satu satu lu anak kontol
+YO NDAK TAU KOK TANYA SAYA
