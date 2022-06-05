@@ -66,9 +66,9 @@ def banner():
 def login():
 		try:
 			token = open('.token.txt','r').read()
-			tokenku.append(token)
+			panda.append(token)
 			try:
-				sy = requests.get('https://graph.facebook.com/me?access_token='+tokenku[0])
+				sy = requests.get('https://graph.facebook.com/me?access_token='+panda)
 				sy2 = json.loads(sy.text)['name']
 				sy3 = json.loads(sy.text)['id']
 				sy4 = json.loads(sy.text)['birthday']
@@ -93,7 +93,7 @@ def login_lagi():
 	panda = input(x+'['+p+'f'+x+'] Token : ')
 	akun=open('.token.txt','w').write(panda)
 	try:
-		tes = requests.get('https://graph.facebook.com/me?access_token='+tokenku[0])
+		tes = requests.get('https://graph.facebook.com/me?access_token='+panda)
 		tes3 = json.loads(tes.text)['id']
 		sue = '# Login Sukses, Tunggu Sebentar!'
 		suu = mark(sue, style='green')
