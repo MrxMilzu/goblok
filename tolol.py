@@ -55,10 +55,10 @@ def back():
 # BANNER
 def banner():
 	clear()
-	wel = '# WELCOME TO FACEBOOK  TOOLS 2022'
+	wel = '# WELCOME ANAK SETAN'
 	wel2 = mark(wel, style='cyan')
 	sol().print(wel2)
-	au='AUTHOR    :  DhoTha\nGITHUB    :  https://github.com/Oleng1\nWHATSAPP  :  081386666531\nSUPORT    :  initseC1337 X OchengXD'
+	au='AUTHOR    :  Organ <Orang Ganteng>\nGITHUB    :  https://github.com/MrxMilzu/goblok\nWHATSAPP  :  083182713104\nHacker    :  Goblok\nBeaCukai     :©anonymous'
 	pengembang1=nel(au,style="cyan")
 	cetak(nel(pengembang1, title='INFORMASI PENGEMBANG'))
 
